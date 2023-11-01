@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Array5 {
+public class Arrays5 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
