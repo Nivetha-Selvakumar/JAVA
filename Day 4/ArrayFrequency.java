@@ -30,22 +30,20 @@ class ArrayFrequency {
             System.out.print(j + " ");
         }
         System.out.println("");
-        int flag=1;
+
+        int arr2[]= new int[a];
+        int flag=-1;
         for(int i=0;i<a;i++){
             int count=1;
             for(int j=i+1;j<a;j++){
-                if(arr[i]==arr[j]){
-                    count++;
-                    flag=0;
-                }
-                else {
-                    count=1;
-                    flag=1;
-                    break;
-                }
+                    if(arr[i]==arr[j]){
+                        count++;
+                        arr[j]=flag;
+                    }
+
             }
-            if(flag==0)
-            System.out.println(arr[i]+":"+count);
+            if(arr[i]!=-1)
+                System.out.println(arr[i]+":"+count);
         }
 
     }
