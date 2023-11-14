@@ -38,11 +38,11 @@ class ArrayFrequency {
             for(int j=i+1;j<a;j++){
                     if(arr[i]==arr[j]){
                         count++;
-                        arr[j]=flag;
+                        arr2[j]=flag;
                     }
 
             }
-            if(arr[i]!=-1)
+            if(arr2[i]!=-1)
                 System.out.println(arr[i]+":"+count);
         }
 
