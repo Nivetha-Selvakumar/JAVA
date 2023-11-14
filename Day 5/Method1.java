@@ -7,7 +7,7 @@ public class Method1{
         System.out.println(c);
 
 }
-public static int sum(int num1, int num2) {
+static int sum(int num1, int num2) {
     int s;
     s = num1 + num2;
     return s;

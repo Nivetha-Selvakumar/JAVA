@@ -6,7 +6,7 @@ public class Method5 {
         int num=sc.nextInt();
         System.out.println(Factorial(num));
     }
-    public static int Factorial(int n){
+    static int Factorial(int n){
         int mul=1;
         if(n!=0){
             mul=n*Factorial(n-1);
