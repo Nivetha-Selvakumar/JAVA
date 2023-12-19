@@ -7,4 +7,5 @@ public class Desicion1{
             System.out.println("A is greater");
         }
     }
+    
 }
